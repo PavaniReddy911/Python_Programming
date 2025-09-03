@@ -1,0 +1,10 @@
+num=int(input("Enter Student Number\n"))
+name=input("Enter student name\n")
+sci=int(input("Enter science marks\n"))
+maths=int(input("Enter maths marks\n"))
+soc=int(input("Enter social marks\n"))
+total=(sci+maths+soc)
+avg=(total)/3
+print(total)
+print(round(avg,2))
+print(num,name,total,round(avg,2))
