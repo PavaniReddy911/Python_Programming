@@ -1,0 +1,9 @@
+my_set = set()
+
+n = int(input("Enter number of elements to add: "))
+
+for i in range(n):
+    element = input(f"Enter element {i+1}: ")
+    my_set.add(element)  
+
+print("Final Set:", my_set)
